@@ -78,6 +78,7 @@
     <option name="APACHE_CONFIG.IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="$purple$"/>
+        <option name="FONT_TYPE" value="%theme^identifiers%"/>
       </value>
     </option>
     <option name="BAD_CHARACTER">
@@ -550,6 +551,7 @@
     <option name="DART_LOCAL_FUNCTION_DECLARATION">
       <value>
         <option name="FOREGROUND" value="$malibu$"/>
+        <option name="FONT_TYPE" value="%theme^identifiers%"/>
       </value>
     </option>
     <option name="DART_LOCAL_FUNCTION_REFERENCE">
@@ -638,26 +640,31 @@
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="$malibu$"/>
+        <option name="FONT_TYPE" value="%theme^identifiers%"/>
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
         <option name="FOREGROUND" value="$malibu$"/>
+        <option name="FONT_TYPE" value="%theme^identifiers%"/>
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="$coral$" />
+        <option name="FONT_TYPE" value="%theme^identifiers%"/>
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="$lightWhite$"/>
+        <option name="FONT_TYPE" value="%theme^identifiers%"/>
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
         <option name="FOREGROUND" value="$coral$"/>
+        <option name="FONT_TYPE" value="%theme^identifiers%"/>
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
@@ -703,6 +710,7 @@
     <option name="DEFAULT_PARAMETER">
       <value>
         <option name="FOREGROUND" value="$whiskey$"/>
+        <option name="FONT_TYPE" value="%theme^identifiers%"/>
       </value>
     </option>
     <option baseAttributes="DEFAULT_LOCAL_VARIABLE" name="DEFAULT_REASSIGNED_LOCAL_VARIABLE"/>
@@ -717,11 +725,18 @@
     <option name="DEFAULT_STATIC_FIELD">
       <value>
         <option name="FOREGROUND" value="$coral$"/>
+        <option name="FONT_TYPE" value="%theme^identifiers%"/>
+      </value>
+    </option>
+    <option name="DEFAULT_INSTANCE_METHOD">
+      <value>
+        <option name="FONT_TYPE" value="%theme^identifiers%"/>
       </value>
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
         <option name="FOREGROUND" value="$malibu$"/>
+        <option name="FONT_TYPE" value="%theme^identifiers%"/>
       </value>
     </option>
     <option name="DEFAULT_STRING">
@@ -801,6 +816,7 @@
     <option name="EDITORCONFIG_VARIABLE">
       <value>
         <option name="FOREGROUND" value="$coral$"/>
+        <option name="FONT_TYPE" value="%theme^identifiers%"/>
       </value>
     </option>
     <option name="EJS_OPEN">
@@ -1294,7 +1310,6 @@
     <option name="KOTLIN_TYPE_ALIAS">
       <value>
         <option name="FOREGROUND" value="$chalky$"/>
-        <option name="FONT_TYPE" value="%italic%"/>
       </value>
     </option>
     <option name="KOTLIN_TYPE_PARAMETER">
@@ -1773,6 +1788,7 @@
     <option name="RDOC_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="$coral$"/>
+        <option name="FONT_TYPE" value="%theme^identifiers%"/>
       </value>
     </option>
     <option name="RDOC_KEYWORD">
@@ -2355,6 +2371,7 @@
     <option name="com.plan9.IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="$fountainBlue$"/>
+        <option name="FONT_TYPE" value="%theme^identifiers%"/>
       </value>
     </option>
     <option name="com.plan9.INSTRUCTION">
@@ -2390,6 +2407,7 @@
     <option name="org.rust.ENUM_VARIANT">
       <value>
         <option name="FOREGROUND" value="$whiskey$"/>
+        <option name="FONT_TYPE" value="%theme^identifiers%"/>
       </value>
     </option>
     <option baseAttributes="DEFAULT_FUNCTION_CALL" name="org.rust.FUNCTION_CALL"/>
@@ -2407,12 +2425,20 @@
     <option name="org.rust.METHOD_CALL">
       <value>
         <option name="FOREGROUND" value="$malibu$"/>
+        <option name="FONT_TYPE" value="%theme^identifiers%"/>
       </value>
     </option>
-    <option baseAttributes="DEFAULT_IDENTIFIER" name="org.rust.MUT_BINDING"/>
+    <option baseAttributes="DEFAULT_IDENTIFIER" name="org.rust.MUT_BINDING">
+      <value>
+        <option name="FONT_TYPE" value="%theme^identifiers%"/>
+        <option name="EFFECT_COLOR" value="bca5c4" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="org.rust.MUT_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="$whiskey$"/>
+        <option name="EFFECT_COLOR" value="bca5c4" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="org.rust.PRIMITIVE_TYPE">
@@ -2432,7 +2458,6 @@
     <option name="org.rust.TYPE_ALIAS">
       <value>
         <option name="FOREGROUND" value="$chalky$"/>
-        <option name="FONT_TYPE" value="%italic%"/>
       </value>
     </option>
     <option name="org.rust.TYPE_PARAMETER">
